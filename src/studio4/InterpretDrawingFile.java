@@ -1,5 +1,6 @@
 package studio4;
 
+import java.awt.Color;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -20,5 +21,12 @@ public class InterpretDrawingFile {
 		File f = new File(chooser.getSelectedFile().getPath());
 		Scanner in = new Scanner(f); //making Scanner with a File
 		
+		String shapeType = in.next();
+		int red
+		int 
+		
+		StdDraw.setPenColor(Color.RED);
+		StdDraw.filledRectangle(0.5, 0.5, 0.8, 0.6);
+	
 	}
 }
