@@ -54,6 +54,9 @@ public class FlagDay {
         StdDraw.filledRectangle(0.4, 0.3, 0.02, 0.06); // Front left leg
         StdDraw.filledRectangle(0.6, 0.3, 0.02, 0.06); // Front right leg
         
+        // StdDraw.setPenColor(StdDraw.RED);
+        
+        
         StdDraw.setPenColor(StdDraw.BLACK);
         Font font =new Font("Times New Roman", Font.BOLD, 22);
         StdDraw.setFont(font);
